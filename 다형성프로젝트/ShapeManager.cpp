@@ -144,13 +144,13 @@ void ShapeManager::draw() const
 	cout << "----------------------------------------------" << endl << endl;
 
 }
-
+/*
 void ShapeManager::saveShape(int shapeNum)
 {
 	char* filename = new char[100];
-	int shapeType;
 	cout << "도형을 저장할 파일의 이름을 적어주세요." << endl;
 	cin >> filename;
 	ofstream outShape(filename);
 		shapes[shapeNum]->saveShape(outShape);
 }
+*/

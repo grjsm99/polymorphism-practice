@@ -14,5 +14,5 @@ public:
 	void draw() const;		// 전체도형을 그리는 함수
 	void delNum(int); // 도형을 삭제하는 함수
 	void delCls(int);
-	void saveShape(int);
+
 };

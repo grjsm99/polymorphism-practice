@@ -12,6 +12,6 @@ public:
 	
 
 	virtual void draw() const override;
-	virtual void saveShape(ofstream&) const override;
+	
 };
 

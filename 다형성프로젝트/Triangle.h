@@ -11,5 +11,5 @@ public:
 	virtual ~Triangle();
 
 	virtual void draw() const override;	// 가상함수 overriding
-	virtual void saveShape(ofstream&) const override;
+	
 };

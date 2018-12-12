@@ -14,7 +14,7 @@ void deleteShape(ShapeManager&);
 void insertCircle(ShapeManager&);
 void insertRectangle(ShapeManager&);
 void insertTriangle(ShapeManager&);
-void saveShape(int);
+void saveShape(ostream&);
 int main()
 {
 
@@ -78,7 +78,7 @@ void mainMenu(ShapeManager& sh) {
 			sh.draw();
 			cout << " 몇번 도형을 저장하시겠어요? " << endl;
 			cin >> selectSh;
-			saveShape(selectSh);
+			
 	
 
 			break;

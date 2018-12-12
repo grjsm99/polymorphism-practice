@@ -12,5 +12,5 @@ public:
 	virtual ~Circle();
 
 	virtual void draw() const override;
-	virtual void saveShape(ofstream&) const override;
+	
 };

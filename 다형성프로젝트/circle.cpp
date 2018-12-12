@@ -14,8 +14,3 @@ void Circle::draw() const
 {
 	std::cout << "원 - 중심점(" << center.x << "," << center.y << ") 반지름 " << rad << std::endl;
 }
-
-void Circle::saveShape(std::ofstream& of) const
-{
-	
-}
